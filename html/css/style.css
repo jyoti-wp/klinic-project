@@ -9,10 +9,29 @@
     max-width: 1200px;
 }
 .header{
-    float: left;
     width: 100%;
     background-color: #00c9b7;
-    background-position: 100% 100%;
-    background-repeat: no-repeat;
-    
 }
+
+.header-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    display: flex;
+
+}
+
+/* header */
+/* icons */
+.header-icon {
+    background-color: white;
+    width: 23px;
+    height: 23px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+}
+
