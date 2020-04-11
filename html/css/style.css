@@ -212,6 +212,7 @@ body {
 /* media-section */
 
 .media-content-section{
+    display: flex;
 
 }
 
@@ -244,4 +245,106 @@ body {
     content: "";
     z-index: 0;
     opacity: .5;
+}
+
+.media-content-right{
+    width: 50%;
+    float: right;
+    padding: 120px 45px 120px 60px;
+}
+
+
+
+
+
+
+
+}    
+.media-content-right title{
+    
+
+    
+}
+
+
+.title h2{
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    text-transform: capitalize;
+
+}
+
+.media-content-right h2::after{
+    position: absolute;
+    content: "";
+    left: 4%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    width: 40px;
+    height: 4px;
+    background: #00C9B7;
+}
+
+.media-content-right p{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6em;
+    position: relative;
+}
+
+.media-content-right ul li{
+    margin-bottom: 15px;
+}
+
+.media-content-right ul li i{
+    color: #00C9B7;
+    margin-right: 5px;
+}
+
+/* skill area section */
+/* about section */
+/* image-section */
+
+
+.skill-area{
+    background: #F9F9F9;
+}
+
+
+.image-section{
+    width: 50%;
+}
+
+.image-section img{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.experience{
+
+}
+
+.experience h3{
+    color: #292929;
+    font-size: 40px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.experience h3::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -1175px;
+    width: 40px;
+    height: 4px;
+    background: #00C9B7;
 }
