@@ -53,6 +53,10 @@ table {
 body {
     font-family: "Poppins", sans-serif;
 }
+
+p {
+    line-height: 1.6;
+}
 .wrapper{
     width: 100%;
     max-width: 1200px;
@@ -315,20 +319,23 @@ body {
 
 .skill-area{
     background: #F9F9F9;
+    margin-bottom: 150px;
 }
 
-
+.image-container{
+    display: flex;
+}
 .image-section{
-    width: 50%;
+    width: 75%;
 }
 
 .image-section img{
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 
 .experience{
-
+        
 }
 
 .experience h3{
@@ -337,14 +344,115 @@ body {
     line-height: 1.4;
     margin-bottom: 40px;
     text-transform: capitalize;
+    position: relative;
 }
 
 .experience h3::after{
     position: absolute;
     content: "";
     left: 0;
-    bottom: -1175px;
+    bottom: -15px;
     width: 40px;
     height: 4px;
     background: #00C9B7;
+}
+
+.experience p{
+    margin-bottom: 20px;
+}
+
+.experience label {
+    display: block;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+
+
+.experience progress {
+    width: 100%;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+/* team-area-sectionn
+new-section */
+
+
+.team-area-section{
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+
+.team-area{
+
+}
+
+.our-experts{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.our-experts h3{
+    
+}
+
+.team-area-section-two{
+
+}
+
+.teams{
+    display: flex;
+
+}
+
+.team-one{
+    padding: 0px 75px 0px 75px;
+}
+
+
+.team-one img{
+    margin-left: 100px;
+}
+
+.team-one h4{
+    text-align: center;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.team-one h5{
+    text-align: center;
+    margin-top: 15px;
+    color: #555555;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.team-one p{
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #555555;
+}
+
+.team-one a i {
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: white
+    margin: 0 2px;
+    border-radius: 50%;
+    font-size: 14px;
+    display: inline-block;
 }
