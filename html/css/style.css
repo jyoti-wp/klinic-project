@@ -369,8 +369,6 @@ p {
     font-weight: 900;
 
 }
-
-
 .experience progress {
     width: 100%;
     margin-bottom: 20px;
@@ -386,6 +384,7 @@ new-section */
 .team-area-section{
     padding-top: 20px;
     padding-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 .team-area{
@@ -397,7 +396,7 @@ new-section */
     font-size: 40px;
     text-transform: capitalize;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 115px;
 }
 
 .our-experts h3{
@@ -414,12 +413,18 @@ new-section */
 }
 
 .team-one{
-    padding: 0px 75px 0px 75px;
+    padding: 70px 25px 50px 25px;
+    box-shadow: 0px 0px 9px 1px rgba(0, 201, 183, 0.1);
+    position: relative;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 
 .team-one img{
-    margin-left: 100px;
+    position: absolute;
+    top: -68px;
+    left: 150px;
 }
 
 .team-one h4{
@@ -446,19 +451,133 @@ new-section */
     color: #555555;
 }
 
+.social-icons-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+
 .team-one a {
     width: 35px;
     line-height: 35px;
     text-align: center;
-    color:blue;
     border-radius: 50%; 
     font-size: 14px;
     display: inline-block;
     height: 35px;
+    color: white;
+    margin-right: 5px;
 }
 
 .team-one a i{
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
+    font-size: inherit; 
+}
+
+.team-one .facebook{
+    background-color: #3B5999; 
+}
+
+
+.team-one .twitter{
+    background-color: #55ACEE;
+}
+
+.team-one .google-plus{
+    background-color: #DD5144;
+}
+
+
+.signup-section {
+    background-color: #00C9B7;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 135px;
+}
+
+.signup-section h5 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    line-height: 48px;
+
+}
+
+.newsletter-area {
+    margin-top: 15px;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 50px;
+    text-indent: 20px;
+    font-size: 15px;
+}
+
+.newsletter-area i{
+    text-align: center;
+    border-radius: 50%;
+    color: #00C9B7;
+}
+
+.latest-update-section{
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+.latest-update-section-one h2{
+    color: #292929;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.latest-update-section-one h2::after{
+    position: absolute;
+    content: "";
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    width: 40px;
+    height: 4px;
+    background: #00C9B7;
+}
+
+.latest-update-section-one p{
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 1.6em;
+    color: #555555;
+}
+
+.latest-update-section-two{
+    display: flex;
+}
+
+.latest-update-section-two img {
+    margin-right: 30px;
+    margin-left: 15px;
+}
+
+.date{
+    text-align: center;
+    color: white;
+    background-color: #00C9B7;
+    width: 135px;
+    height: 35px;
+    border-radius: 50px;
+    padding-top: 18px;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: -25px;
+}
+
+.admin-section p {
+    position: relative;
+    line-height: 1.6em;
 }
