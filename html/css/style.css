@@ -577,7 +577,7 @@ input {
     margin-top: -25px;
 }
 
-.admin-section p {
-    position: relative;
-    line-height: 1.6em;
+.aurthor-info {
+    display: flex;
+    justify-content: space-between;
 }
