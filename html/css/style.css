@@ -589,4 +589,47 @@ input {
 .aurthor-info {
     display: flex;
     justify-content: space-between;
+    
+}
+
+
+.admin-content h2 {
+    padding-top: 40px;
+    font-size: 19px;
+    line-height: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.admin-wrap a, 
+.profile-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.admin-content p{
+    padding-top: 10px;
+    position: relative;
+    font-family: sans-serif;
+    color: grey;
+    padding-bottom: 10px;
+}
+
+.bttn-mid.btn-emt {
+    padding: 14px 45px;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: transparent;
+    color: #00C9B7;
+    border: 2px solid #00C9B7;
+    border-radius: 45px;
+}
+
+.brand-images {
+    background-color: #00C9B7;
+    padding: 45px 30px;
+    display: flex;
+    justify-content: space-evenly;
 }
