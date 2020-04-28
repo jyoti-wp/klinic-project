@@ -633,3 +633,156 @@ input {
     display: flex;
     justify-content: space-evenly;
 }
+
+.footer-area{
+    background-color: #262229;
+    padding-top: 185px;
+    padding-bottom: 120px;
+    color: white;
+}
+
+
+.main-footer-area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-company-area{
+    margin-left: 90px;
+}
+
+
+.about-company-area h3,
+.useful-links-area h3,
+.services-area h3,
+.contact-area h3 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.about-company-area p {
+    font-size: 15px;
+    line-height: 28px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.useful-links-area,
+.services-area,
+.about-company-area,
+.contact-area {
+    width: 22%;
+}
+
+.useful-links-area {
+    margin-left: 30px;
+}
+
+.useful-links-area ul {
+    list-style: none;
+}
+
+.useful-links-area li {
+    margin-bottom: 10px;
+    position: relative;  
+}
+
+.useful-links-area ul li a {
+    color: #ffffff;
+    text-transform: capitalize;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.useful-links-area ul li a::before{
+    content: "\f101";
+    left: 0;
+    top: 0;
+    font-family: Fontawesome;
+    padding-right: 15px;
+    text-decoration: none;
+    text-decoration: none
+}
+
+.services-area ul{
+    list-style: none;
+}
+
+.service-area ul li{
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;  
+}
+
+.services-area ul li a {
+    color: #ffffff;
+    text-transform: capitalize;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.services-area ul li a::before{
+    content: "\f101";
+    left: 0;
+    top: 0;
+    font-family: Fontawesome;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+
+.form-action input{
+    background: #3D3C3E;
+    text-indent: 15px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+
+textarea {
+    width: 100%;
+    background: #3D3C3E;
+    padding-top: 70px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    
+}
+
+
+button {
+    width: 100%;
+    text-indent: 15px;
+    padding: 18px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    border-radius: 4px;
+    background: #00C9B7;
+    font-size: 17px;
+}
+
+.contact-area {
+    margin-right: 90px;
+}
+
+.social-area {
+    display: flex;
+}
+
+.social-area input {
+    margin-right: 2px;
+    
+}
+
+.footer-end p{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+    color: #292929;
+}
